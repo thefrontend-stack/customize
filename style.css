@@ -1,0 +1,97 @@
+ @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@200..800&display=swap');
+    body {
+        font-family: 'Plus Jakarta Sans', sans-serif;
+    }
+        /* Full Screen Background Configuration */
+        .bg-fullscreen {
+            /* The linear-gradient darkens the image to make the white text stand out */
+            background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)),
+            url('./bg-1.jpg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            min-height: 100vh;
+            width: 100vw;
+            overflow-x: hidden;
+        }
+        
+        /* High-end Glassmorphism effect for the container */
+        .glass-card {
+            background: rgba(255, 255, 255, 0.05);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 1.5rem;
+        }
+
+        /* Vertical Timeline Container */
+        .vertical-timeline {
+            position: relative;
+            padding-left: 2.5rem;
+            margin: 2.5rem 0;
+            text-align: left;
+        }
+
+        /* Vertical line */
+        .vertical-timeline::before {
+            content: '';
+            position: absolute;
+            left: 0.6rem;
+            top: 0.2rem;
+            bottom: 0.2rem;
+            width: 2px;
+            background: rgba(255, 255, 255, 0.2);
+        }
+
+        /* Each timeline step */
+        .timeline-step {
+            position: relative;
+            margin-bottom: 2.5rem;
+        }
+
+        .timeline-step:last-child {
+            margin-bottom: 0;
+        }
+
+        /* Timeline circles */
+        .timeline-step::before {
+            content: '';
+            position: absolute;
+            left: -2.5rem;
+            top: 0.15rem;
+            width: 1.2rem;
+            height: 1.2rem;
+            background: #fff;
+            border: 2px solid #fff;
+            border-radius: 50%;
+            z-index: 1;
+            transition: all 0.3s ease;
+        }
+        
+        /* Active/completed step circle (using Bootstrap primary color) */
+        .step-active::before {
+            background: #0d6efd;
+            border-color: #0d6efd;
+            box-shadow: 0 0 12px rgba(13, 110, 253, 0.6);
+        }
+            /* Lazy Loading Keyframes for the SVG */
+    @keyframes svgPopIn {
+        0% {
+            opacity: 0;
+            transform: scale(0.5) rotate(-15deg);
+        }
+        70% {
+            transform: scale(1.1) rotate(5deg);
+        }
+        100% {
+            opacity: 1;
+            transform: scale(1) rotate(0deg);
+        }
+    }
+
+    .svg-reveal {
+        transform-origin: center;
+        animation: svgPopIn 0.8s cubic-bezier(0.34, 1.56, 0.64, 1) forwards;
+        will-change: transform, opacity;
+    }
