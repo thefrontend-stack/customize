@@ -9,3 +9,7 @@ Instead of bloated setups or generic templates, we deliver modular, production-r
 [Navbar](https://thefrontend.org/ux/subcategory/navbar) <br/>
 [Tabs](https://thefrontend.org/ux/subcategory/tabs) <br/>
 [WhatsApp](https://thefrontend.org/ux/subcategory/whatsapp) <br/>
+
+# Dashboard
+[Login](https://thefrontend.org/ux/subcategory/login) <br/>
+[Tables](https://thefrontend.org/ux/subcategory/tables) <br/>
