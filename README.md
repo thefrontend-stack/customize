@@ -1,4 +1,4 @@
-# customize
+# Frontend Blocks
 Premium Bootstrap 5+ Frontend Blocks
 
 # Components
