@@ -3,6 +3,13 @@ Welcome to Thefrontend.org. Our mission is to streamline the development lifecyc
 <br/><br/>
 Instead of bloated setups or generic templates, we deliver modular, production-ready Bootstrap 5.3+ components, optimized frontend toolkits, and clear architectural insights aimed at building secure, fast, and commercially scalable web applications.
 
+# Ecommerce
+[Layout](https://thefrontend.org/ux/subcategory/layout) <br/>
+[Order](https://thefrontend.org/ux/subcategory/order) <br/>
+[Product List](https://thefrontend.org/ux/subcategory/product-list) <br/>
+[Slider](https://thefrontend.org/ux/subcategory/slider) <br/>
+[Testimonials](https://thefrontend.org/ux/subcategory/testimonials) <br/>
+
 # Components
 [Content](https://thefrontend.org/ux/subcategory/content) <br/>
 [Footer](https://thefrontend.org/ux/subcategory/footer) <br/>
