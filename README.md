@@ -20,3 +20,8 @@ Instead of bloated setups or generic templates, we deliver modular, production-r
 # Dashboard
 [Login](https://thefrontend.org/ux/subcategory/login) <br/>
 [Tables](https://thefrontend.org/ux/subcategory/tables) <br/>
+
+# Forms
+[Form control](https://thefrontend.org/ux/subcategory/form-control) <br/>
+[Multi step](https://thefrontend.org/ux/subcategory/multi-step) <br/>
+[Range](https://thefrontend.org/ux/subcategory/range) <br/>
