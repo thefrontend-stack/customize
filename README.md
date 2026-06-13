@@ -10,6 +10,11 @@ Instead of bloated setups or generic templates, we deliver modular, production-r
 [Slider](https://thefrontend.org/ux/subcategory/slider) <br/>
 [Testimonials](https://thefrontend.org/ux/subcategory/testimonials) <br/>
 
+# Marketing
+[Newsletter](https://thefrontend.org/ux/subcategory/newsletter) <br/>
+[Popup](https://thefrontend.org/ux/subcategory/popup) <br/>
+[Thank you page](https://thefrontend.org/ux/subcategory/thank-you-page) <br/>
+
 # Components
 [Content](https://thefrontend.org/ux/subcategory/content) <br/>
 [Footer](https://thefrontend.org/ux/subcategory/footer) <br/>
