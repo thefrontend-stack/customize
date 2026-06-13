@@ -5,4 +5,7 @@ Instead of bloated setups or generic templates, we deliver modular, production-r
 
 # Components
 [Content](https://thefrontend.org/ux/subcategory/content) <br/>
-[Footer](https://thefrontend.org/ux/subcategory/footer)
+[Footer](https://thefrontend.org/ux/subcategory/footer) <br/>
+[Navbar](https://thefrontend.org/ux/subcategory/navbar) <br/>
+[Tabs](https://thefrontend.org/ux/subcategory/tabs) <br/>
+[WhatsApp](https://thefrontend.org/ux/subcategory/whatsapp) <br/>
